@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ReactDOM from "react-dom";
 
-const Popup = () => {
+const Index = () => {
   const [count, setCount] = useState(0);
   const [currentURL, setCurrentURL] = useState<string>();
 
@@ -51,7 +51,7 @@ const Popup = () => {
 
 ReactDOM.render(
   <React.StrictMode>
-    <Popup />
+    <Index />
   </React.StrictMode>,
   document.getElementById("root")
 );
