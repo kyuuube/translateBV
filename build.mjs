@@ -62,7 +62,7 @@ async function build() {
 
     // chromium
     await copyFiles(
-        [...commonFiles, { src: 'public/manifest.json', dst: 'manifest.json' }],
+        [...commonFiles, { src: 'public/manifest.chromium.json', dst: 'manifest.json' }],
         `./${browserExtensionOutDir}/chromium`
     )
 
